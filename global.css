@@ -2,35 +2,40 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  transition: .2s;
+  text-transform: capitalize;
 }
 
 html{font-size: 62.5%;
      overflow: smooth;
 }
 
-.header{background-color: rgb(48, 154, 120);
-        height: 13vh;
-        width: 100%;
-        padding:1.5rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        left: 0;
-        right: 0;     
-        z-index: 1000; 
+ .header{background-color: rgb(48, 154, 120);
+  height: 13vh;
+  width: 100%;
+  padding:1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;     
+  z-index: 1000; 
 }
 
 #logo{height: 40px;
-      width: 60px;
-      margin-left: 60px;
-      border-radius:5px;
+  width: 60px;
+  margin-left: 60px;
+  border-radius:5px;
 }
 
 .navbar a{color: white;
-          font-size: 1.5rem;
-          margin-left: 2rem;
-          position: relative;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  position: relative;
+}
+
+#menubar{cursor: pointer;
 }
 
 .navbar a:after{content: '' ;
@@ -41,7 +46,7 @@ html{font-size: 62.5%;
                 top: 100%;
                 left: 0;
                 margin-top: 5px;
-                transition: 1.8s;
+                transition: 1.5s;
 }
 
 .navbar a:hover:after{content: '' ;
@@ -55,25 +60,24 @@ html{font-size: 62.5%;
 }
 
 .icons div{font-size: 2rem;
-           margin-right: 1rem;
-           display: none;
-           color: white;
+  margin-right: 1rem;
+  display: none;
+  color: white;
 }
 
-.icons a {color: white;
-          background-color:  rgb(250, 172, 63);
-          padding: 1.5rem 3rem;
-          font-size: 1.5rem;
-          border-radius: 10px;
-          transition: .5s;
+.icons a{color: white;
+background-color:  rgb(250, 172, 63);
+padding: 1.5rem 3rem;
+font-size: 1.5rem;
+border-radius: 10px;
+transition: .5s;
 }
 
 .icons a:hover{background: transparent;
-               border: 1px solid;
-               color: rgb(250, 172, 62);
+      border: 1px solid rgb(250, 172, 62);
 }
 
-.navbar.active{
+ .navbar.active{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
@@ -100,7 +104,8 @@ html{font-size: 62.5%;
 
 .background-content p {font-size: 2rem;
                        margin-bottom: 40px;
-                       color: white;
+                       color: rgb(3, 3, 3);
+                       font-weight: 800;
 }
 
 .background-content a{background-color: rgb(250, 172, 63); 
@@ -309,6 +314,30 @@ html{font-size: 62.5%;
 .contact-left h2{margin-top: 10px;  
                 color: rgb(17, 143, 107);             
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
