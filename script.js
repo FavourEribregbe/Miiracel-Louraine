@@ -4,5 +4,5 @@ let mynav = document.querySelector('.navbar');
 
 menubar.onclick = () =>{
     menubar.classList.toggle('fa-regular fa-x')
-    mynav.classList.toggle('active')
+    mynav.classList.toggle('active-link')
 }
