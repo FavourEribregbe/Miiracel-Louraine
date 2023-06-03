@@ -100,6 +100,7 @@ html{font-size: 62.5%;
 
 .background-content p {font-size: 2rem;
                        margin-bottom: 40px;
+                       color: white;
 }
 
 .background-content a{background-color: rgb(250, 172, 63); 
